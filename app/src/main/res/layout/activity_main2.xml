@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Section: Teaching Learning Process -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Teaching Learning Process"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Semester No -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester No:" />
+        <EditText
+            android:id="@+id/semester_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter semester no"
+            android:inputType="number" />
+
+        <!-- Total Allocated Lectures -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Allocated Lectures:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/total_allocated_lectures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter total allocated lectures"
+            android:inputType="number" />
+
+        <!-- Lectures Taken -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lectures Taken:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/lectures_taken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter lectures taken"
+            android:inputType="number" />
+
+        <!-- No. of Hours Allocated -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. of Hours Allocated (Labs/Tutorials):"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/hours_allocated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter hours allocated"
+            android:inputType="number" />
+
+        <!-- No. of Hours Taken -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No. of Hours Taken:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/hours_taken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter hours taken"
+            android:inputType="number" />
+
+        <!-- Section: Student-Centric Parameters -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.2 Student-Centric Parameters"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Attendance -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance of Students Above 85%"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Theory 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Theory 1, No. of Students:" />
+        <EditText
+            android:id="@+id/theory1_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <!-- Theory 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Theory 2, No. of Students:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/theory2_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <!-- Practical 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Practical 1, No. of Students:"
+            android:layout_marginTop="10dp" />
+
+        <!-- Practical 2 -->
+
+        <EditText
+            android:id="@+id/practical1_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Practical 2, No. of Students:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/practical2_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>

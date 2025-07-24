@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Contribution at Department Level (CDL) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Contribution at Department Level (CDL)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Conducting activities of professional bodies -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Conducting the activities of professional bodies (e.g., IEEE, CSI, IETE, etc.)"
+            android:layout_marginTop="8dp" />
+        <RadioGroup
+            android:id="@+id/conduct_activities_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/conduct_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+            <RadioButton
+                android:id="@+id/conduct_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/conduct_details_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provide details (if any)"
+            android:visibility="gone"
+            android:inputType="text" />
+
+        <!-- Organizing training programs -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Organizing training programs (FDP/STTP/Workshops/Seminars, etc.)"
+            android:layout_marginTop="8dp" />
+        <RadioGroup
+            android:id="@+id/training_program_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/training_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+            <RadioButton
+                android:id="@+id/training_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/training_details1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provide details (if any)"
+            android:visibility="gone"
+            android:inputType="text" />
+
+        <!-- Participation in training programs -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Participation in training programs/training courses"
+            android:layout_marginTop="8dp" />
+        <RadioGroup
+            android:id="@+id/training_participation_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/participation_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+            <RadioButton
+                android:id="@+id/participation_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/participation_details1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provide details (if any)"
+            android:visibility="gone"
+            android:inputType="text" />
+
+        <!-- Contribution at Institute Level (CIL) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Contribution at Institute Level (CIL)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- NAAC/NBA/WIRF Coordination -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. NBA/NAAC/WIRF Coordinator/Member"
+            android:layout_marginTop="8dp" />
+        <RadioGroup
+            android:id="@+id/naac_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/naac_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+            <RadioButton
+                android:id="@+id/naac_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/naac_details1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provide details (if any)"
+            android:visibility="gone"
+            android:inputType="text" />
+
+        <!-- Internship and Placement Support -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Internship and placement support"
+            android:layout_marginTop="8dp" />
+        <RadioGroup
+            android:id="@+id/internship_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/internship_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+            <RadioButton
+                android:id="@+id/internship_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/internship_details1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provide details (if any)"
+            android:visibility="gone"
+            android:inputType="text" />
+
+        <!-- Any other responsibilities -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Any other DSI level responsibility allotted"
+            android:layout_marginTop="8dp" />
+        <RadioGroup
+            android:id="@+id/other_responsibilities_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/other_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+            <RadioButton
+                android:id="@+id/other_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+        <EditText
+            android:id="@+id/other_details1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provide details (if any)"
+            android:visibility="gone"
+            android:inputType="text" />
+
+        <!-- Next button -->
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

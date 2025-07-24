@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Performance Appraisal Form"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+        <!-- Employee Code -->
+        <TextView
+            android:id="@+id/employeeCodeHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your unique employee code." />
+        <EditText
+            android:id="@+id/employeeCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Code" />
+
+
+
+        <!-- Name in Full -->
+        <TextView
+            android:id="@+id/nameHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your full name as per records." />
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name in Full" />
+
+
+
+        <!-- Designation -->
+        <TextView
+            android:id="@+id/designationHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your current job title or designation." />
+        <EditText
+            android:id="@+id/designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Designation" />
+
+
+
+        <!-- College/Institute -->
+        <TextView
+            android:id="@+id/collegeInstituteHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the name of your college or institute." />
+        <EditText
+            android:id="@+id/collegeInstitute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="College/Institute" />
+
+
+
+        <!-- Campus -->
+        <TextView
+            android:id="@+id/campusHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specify the campus you are associated with." />
+        <EditText
+            android:id="@+id/campus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Campus" />
+
+
+
+        <!-- Department -->
+        <TextView
+            android:id="@+id/departmentHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter the name of your department." />
+        <EditText
+            android:id="@+id/department"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Department" />
+
+
+
+        <!-- Joining Date -->
+        <TextView
+            android:id="@+id/joiningDateHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Provide the date when you joined DSCE." />
+        <EditText
+            android:id="@+id/joiningDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Joining Date at DSCE" />
+
+
+
+        <!-- Period of Assessment -->
+        <TextView
+            android:id="@+id/assessmentPeriodHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specify the time period being assessed." />
+        <EditText
+            android:id="@+id/assessmentPeriod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Period of Assessment" />
+
+
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next" />
+
+    </LinearLayout>
+</ScrollView>

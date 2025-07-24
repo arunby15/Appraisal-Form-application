@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty Performance Measuring Index(FPMI)"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Teaching Learning Process (TLP) -->
+    <TextView
+        android:id="@+id/tlp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Teaching Learning Process (TLP)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum Marks: 100"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/tlp_obtained1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Obtained Marks"
+        android:inputType="number" />
+
+    <!-- Professional Development and Research (CPDC) -->
+    <TextView
+        android:id="@+id/cpdc_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Professional Development and Research (CPDC)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum Marks: 100"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/cpdc_obtained2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Obtained Marks"
+        android:inputType="number" />
+
+    <!-- Contribution at Department Level (CDL) -->
+    <TextView
+        android:id="@+id/cdl_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Contribution at Department Level (CDL)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum Marks: 100"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/cdl_obtained3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Obtained Marks"
+        android:inputType="number" />
+
+    <!-- Contribution at Institutional Level (CII) -->
+    <TextView
+        android:id="@+id/cii_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. Contribution at Institutional Level (CII)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum Marks: 100"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/cii_obtained4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Obtained Marks"
+        android:inputType="number" />
+
+    <!-- Interaction with Outside World (IOW) -->
+    <TextView
+        android:id="@+id/iow_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5. Interaction with Outside World (IOW)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum Marks: 100"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/iow_obtained5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Obtained Marks"
+        android:inputType="number" />
+
+    <!-- Total Marks TextView -->
+    <TextView
+        android:id="@+id/total_marks_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Obtained Marks: 0"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Next Button -->
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

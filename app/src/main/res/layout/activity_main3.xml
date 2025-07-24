@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Feedback:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semester No:" />
+        <EditText
+            android:id="@+id/semester_no_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter semester no"
+            android:inputType="number" />
+
+        <!-- Theory 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Theory 1, No. of Students Filled:" />
+        <EditText
+            android:id="@+id/theory1_students2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <!-- Theory 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Theory 2, No. of Students Filled:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/theory2_students2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <!-- Practical 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Practical 1, No. of Students Filled:"
+            android:layout_marginTop="10dp" />
+
+        <!-- Practical 2 -->
+
+        <EditText
+            android:id="@+id/practical1_students2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Practical 2, No. of Students Filled:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/practical2_students2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Results of Students"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Theory 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Theory 1, No. of Students passed:" />
+        <EditText
+            android:id="@+id/theory1_students_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <!-- Theory 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Theory 2, No. of Students passed:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/theory2_students_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Practical 1, No. of Students passed:"
+            android:layout_marginTop="10dp" />
+
+        <!-- Practical 2 -->
+
+        <EditText
+            android:id="@+id/practical1_students_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Practical 2, No. of Students passed:"
+            android:layout_marginTop="10dp" />
+        <EditText
+            android:id="@+id/practical2_students_r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter number of students"
+            android:inputType="number" />
+
+        <!-- Next Button -->
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>

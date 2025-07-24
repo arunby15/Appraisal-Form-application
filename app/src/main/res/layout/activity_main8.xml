@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Criteria For Rating"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Section for Professors -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Professor:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Members:" />
+        <EditText
+            android:id="@+id/professor_total_members"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter total members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outstanding:" />
+        <EditText
+            android:id="@+id/professor_outstanding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter outstanding members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Competent:" />
+        <EditText
+            android:id="@+id/professor_competent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter competent members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good:" />
+        <EditText
+            android:id="@+id/professor_good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter good members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfactory:" />
+        <EditText
+            android:id="@+id/professor_satisfactory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter satisfactory members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poor:" />
+        <EditText
+            android:id="@+id/professor_poor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter poor members"
+            android:inputType="number" />
+
+        <!-- Section for Associate Professors -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Associate Professor:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Members:" />
+        <EditText
+            android:id="@+id/associate_total_members"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter total members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outstanding:" />
+        <EditText
+            android:id="@+id/associate_outstanding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter outstanding members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Competent:" />
+        <EditText
+            android:id="@+id/associate_competent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter competent members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good:" />
+        <EditText
+            android:id="@+id/associate_good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter good members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfactory:" />
+        <EditText
+            android:id="@+id/associate_satisfactory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter satisfactory members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poor:" />
+        <EditText
+            android:id="@+id/associate_poor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter poor members"
+            android:inputType="number" />
+
+        <!-- Section for Assistant Professors -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assistant Professor:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Members:" />
+        <EditText
+            android:id="@+id/assistant_total_members"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter total members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Outstanding:" />
+        <EditText
+            android:id="@+id/assistant_outstanding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter outstanding members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Competent:" />
+        <EditText
+            android:id="@+id/assistant_competent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter competent members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good:" />
+        <EditText
+            android:id="@+id/assistant_good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter good members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfactory:" />
+        <EditText
+            android:id="@+id/assistant_satisfactory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter satisfactory members"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poor:" />
+        <EditText
+            android:id="@+id/assistant_poor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter poor members"
+            android:inputType="number" />
+
+        <!-- Section for HOD Signature -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Signature of HOD:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/hod_signature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter HOD's signature here" />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
